@@ -1,8 +1,8 @@
 <?php
 
 
-//  token example: 331776984:AAEiIH-qRVeFmrtnTw_BZs5oGTSsjNM0LB4
-//  chat_id example: -1001112893288
+//  token example: 1215714315:AAFcve5c-B2We5VG4oS8W5Rm8LQ6O8T32O0
+//  chat_id example: -1001481341430
 // https://www.youtube.com/channel/UCYuMRNb_SRZ4FMsZjnHRZUA video
 
 
@@ -20,10 +20,10 @@ $proovl_token = "***************"; // Proovl.com Token
 	if ($token == "$proovl_token") {
 	
 	
-	$url = "https://api.telegram.org/bot$token/sendMessage";
+	$url = "https://api.telegram.org/bot1215714315:AAFcve5c-B2We5VG4oS8W5Rm8LQ6O8T32O0/sendMessage";
 
 	$postfields = array(
-   		'chat_id' => "$chat_id",
+   		'chat_id' => "-1001481341430",
    		'disable_notification' => "True",
    		'parse_mode' => "HTML",
         'text' => "From number<b>$from</b>  To number:<pre>$to</pre>  SMS text:<i>$text</i>",
